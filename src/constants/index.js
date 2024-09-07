@@ -1,3 +1,4 @@
+import { e } from "maath/dist/index-43782085.esm";
 import {
   mobile,
   backend,
@@ -8,21 +9,25 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
+  MySQL,
   nodejs,
-  mongodb,
   git,
-  figma,
+  nextjs,
+  LK,
+  adelcover,
+  // figma,
   docker,
-  meta,
+  /* meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  shopify, */
+  /* carrent, 
+  jobit,*/
+  eventnow,
+  //tripguide,
+  // threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +47,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps Engineer",
     icon: mobile,
   },
   {
@@ -54,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "ADEL Platform Co-Founder",
     icon: creator,
   },
 ];
@@ -80,10 +85,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
+  /* {
     name: "Redux Toolkit",
     icon: redux,
-  },
+  }, */
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -93,21 +98,25 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "MySQL",
+    icon: MySQL,
   },
-  {
+  /* {
     name: "Three JS",
     icon: threejs,
-  },
+  }, */
   {
     name: "git",
     icon: git,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  /* {
     name: "figma",
     icon: figma,
-  },
+  }, */
   {
     name: "docker",
     icon: docker,
@@ -116,19 +125,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full stack Developer",
+    company_name: "LK Wellness Services - USA",
+    icon: LK,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining an Event management website using NextJS and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
+  /* {
     title: "React Native Developer",
     company_name: "Tesla",
     icon: tesla,
@@ -166,7 +173,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  }, */
 ];
 
 const testimonials = [
@@ -198,48 +205,56 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EventNow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "EventEase simplifies event management by enabling users to create, view, and manage events, including tracking registrations and sending emails, all through a user-friendly interface.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "SupaBase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
+    image: eventnow,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "ADEL Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A SaaS web application that streamlines law firm operations with features like client management, document processing, appointment scheduling, invoicing, and robust security, providing an efficient and secure platform for Arab legal professionals.",
     tags: [
       {
-        name: "react",
+        name: "MySQL",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "LiveWire",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Laravel",
         color: "pink-text-gradient",
       },
+      {
+        name: "Tailwind",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
+    image: adelcover,
     source_code_link: "https://github.com/",
   },
-  {
+  /* {
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -259,7 +274,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
-  },
+  }, */
 ];
 
 export { services, technologies, experiences, testimonials, projects };
