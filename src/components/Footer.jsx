@@ -76,8 +76,8 @@ export default function Footer() {
                         </a>
                     ))}
                 </div>
-                <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-                    &copy; 2024 Zuhair Madmouj, Inc. All rights reserved.
+                <p className="mt-10 text-center text-xs leading-5 font-bold text-gray-500">
+                    &copy; 2024 Zuhair Madmouj. All rights reserved.
                 </p>
             </div>
         </footer>

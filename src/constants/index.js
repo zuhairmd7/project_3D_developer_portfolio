@@ -50,10 +50,10 @@ const services = [
     title: "Full-Stack Developer",
     icon: web,
   },
-  {
+  /* {
     title: "DevOps Engineer",
     icon: mobile,
-  },
+  }, */
   {
     title: "Backend Developer",
     icon: backend,
